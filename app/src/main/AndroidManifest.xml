@@ -20,7 +20,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/BaseTheme">
-        <activity android:name="kevin.com.CatTalk.SplashActivity"
+        <activity
+            android:name=".Ui.SplashActivity"
             android:theme="@style/FullscreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,21 +30,68 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="kevin.com.CatTalk.HomeActivity"
+            android:name=".Ui.HomeActivity"
             android:label="@string/title_activity_home"
             android:launchMode="singleTop"
-            android:theme="@style/FullscreenTheme">
-
-        </activity>
+            android:theme="@style/FullscreenTheme" />
         <activity
-            android:name="kevin.com.CatTalk.LoginActivity"
+            android:name=".Ui.LoginActivity"
             android:label="@string/title_activity_login"
-            android:theme="@style/FullscreenTheme">
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name=".Ui.SettingActivity"
+            android:label="@string/action_settings" />
 
+        <!-- 会话列表 -->
+        <activity
+            android:name=".Ui.ConversationListActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="kevin.com.CatTalk"
+                    android:pathPrefix="/conversationlist"
+                    android:scheme="rong" />
+            </intent-filter>
         </activity>
-        <activity android:name="kevin.com.CatTalk.SettingActivity"
-            android:label="@string/action_settings">
 
+        <!-- 聚合会话列表 -->
+        <activity
+            android:name=".Ui.SubConversationListActivtiy"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="kevin.com.CatTalk"
+                    android:pathPrefix="/subconversationlist"
+                    android:scheme="rong" />
+            </intent-filter>
+        </activity>
+
+        <!--会话界面-->
+        <activity
+            android:name=".Ui.ConversationActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustResize">
+
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="kevin.com.CatTalk"
+                    android:pathPrefix="/conversation/"
+                    android:scheme="rong" />
+            </intent-filter>
         </activity>
     </application>
 
