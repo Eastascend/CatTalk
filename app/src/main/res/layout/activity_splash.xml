@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_splash">
+
+    <!-- layout_centerInParent:在父控件的中间位置
+    shadow
+    shadowColor : 设置阴影颜色
+    shadowDx : 关于x轴的偏移量
+    shadowRadius : 偏移的角度
+    -->
+
+    <TextView
+        android:id="@+id/tv_splash_versionname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="版本号:1.0"
+        android:shadowColor="#ffff00"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+    <!-- layout_below : 在某个控件的下方 -->
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tv_splash_versionname"
+        android:layout_centerHorizontal="true" />
+    <!-- 下载进度 -->
+    <!-- visibility : 设置控件是否可见
+        visible : 可见
+        invisible : 不可见,但是还是占用位置
+        gone : 不可见,也占用位置
+        layout_marginLeft : 距离父控件左边框的距离
+        layout_marginRight : 距离父控件有边框的距离
+        layout_marginBottom : 距离父控件底部的距离
+    -->
+    <TextView
+        android:id="@+id/tv_spalsh_plan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="invisible"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+
+
+</RelativeLayout>
