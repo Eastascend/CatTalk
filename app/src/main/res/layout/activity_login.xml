@@ -26,11 +26,11 @@
 
         <ImageView
             android:id="@+id/de_login_logo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="130dp"
+            android:layout_height="98dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="91dip"
-            android:src="@drawable/app" />
+            android:src="@drawable/ic_logo" />
 
 
         <LinearLayout
