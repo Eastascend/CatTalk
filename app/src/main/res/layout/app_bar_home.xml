@@ -56,7 +56,7 @@
         <!-- numColumns : 设置每行显示的个数
                     verticalSpacing : 设置每行之间的距离
                 -->
-        <kevin.com.CatTalk.Ui.MyGridView xmlns:Android="http://schemas.android.com/apk/res/android"
+        <kevin.com.CatTalk.Ui.Activity.MyGridView xmlns:Android="http://schemas.android.com/apk/res/android"
             Android:id="@+id/grid_view"
             Android:layout_width="match_parent"
             Android:layout_height="match_parent"
@@ -67,7 +67,9 @@
             Android:stretchMode="columnWidth"
             Android:verticalSpacing="10dip">
 
-        </kevin.com.CatTalk.Ui.MyGridView>
+        </kevin.com.CatTalk.Ui.Activity.MyGridView>
+
+
 
 
     </android.support.v4.widget.NestedScrollView>

@@ -21,7 +21,7 @@
         android:supportsRtl="true"
         android:theme="@style/BaseTheme">
         <activity
-            android:name=".Ui.SplashActivity"
+            android:name=".Ui.Activity.SplashActivity"
             android:theme="@style/FullscreenTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,21 +30,21 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Ui.HomeActivity"
+            android:name=".Ui.Activity.HomeActivity"
             android:label="@string/title_activity_home"
             android:launchMode="singleTop"
             android:theme="@style/FullscreenTheme" />
         <activity
-            android:name=".Ui.LoginActivity"
+            android:name=".Ui.Activity.LoginActivity"
             android:label="@string/title_activity_login"
             android:theme="@style/FullscreenTheme" />
         <activity
-            android:name=".Ui.SettingActivity"
+            android:name=".Ui.Activity.SettingActivity"
             android:label="@string/action_settings" />
 
         <!-- 会话列表 -->
         <activity
-            android:name=".Ui.ConversationListActivity"
+            android:name=".Ui.Activity.ConversationListActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize">
             <intent-filter>
@@ -61,7 +61,7 @@
 
         <!-- 聚合会话列表 -->
         <activity
-            android:name=".Ui.SubConversationListActivtiy"
+            android:name=".Ui.Activity.SubConversationListActivtiy"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize">
             <intent-filter>
@@ -76,12 +76,11 @@
             </intent-filter>
         </activity>
 
-        <!--会话界面-->
+        <!-- 会话界面 -->
         <activity
-            android:name=".Ui.ConversationActivity"
+            android:name=".Ui.Activity.ConversationActivity"
             android:screenOrientation="portrait"
             android:windowSoftInputMode="stateHidden|adjustResize">
-
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 

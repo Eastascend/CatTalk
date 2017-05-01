@@ -109,7 +109,7 @@
 
 
             <Button
-                android:id="@+id/de_login_sign"
+                android:id="@+id/bt_login"
                 android:textSize="18sp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

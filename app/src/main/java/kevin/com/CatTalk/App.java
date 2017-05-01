@@ -18,6 +18,9 @@ public class App extends Application {
         RongIM.init(this);
 
 
+
+
+
     }
 
 
@@ -32,6 +35,9 @@ public class App extends Application {
         }
         return null;
     }
+
+
+
 
 
 }
