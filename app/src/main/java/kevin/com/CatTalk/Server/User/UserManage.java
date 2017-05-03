@@ -1,4 +1,4 @@
-package kevin.com.CatTalk.Ui;
+package kevin.com.CatTalk.Server.User;
 
 /**
  * 保存用户信息的管理类

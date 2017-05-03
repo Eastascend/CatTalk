@@ -1,4 +1,4 @@
-package kevin.com.CatTalk.Ui;
+package kevin.com.CatTalk.Server.User;
 
 /**
  * Created by Kevin Wong on 2017/5/1 0001.

@@ -5,4 +5,8 @@ package kevin.com.CatTalk.Server;
  */
 
 public interface UserService {
+
+    public void userLogin (String userName,String userPwd) throws Exception;
+
+
 }

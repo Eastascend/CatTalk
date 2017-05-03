@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -22,7 +23,9 @@ import io.rong.imlib.RongIMClient;
 import io.rong.imlib.model.Conversation;
 import kevin.com.CatTalk.App;
 import kevin.com.CatTalk.R;
-import kevin.com.CatTalk.Ui.UserManage;
+import kevin.com.CatTalk.Server.User.UserManage;
+import kevin.com.CatTalk.Server.UserService;
+import kevin.com.CatTalk.Server.UserServiceImpl;
 
 import static kevin.com.CatTalk.R.id.et_name;
 import static kevin.com.CatTalk.R.id.et_password;
@@ -38,37 +41,10 @@ public class LoginActivity extends AppCompatActivity  {
     private ImageView mImg_Background;
     private Button bt_login;
 
+    private UserService userService = new UserServiceImpl();
 
 
-    @Override
-    public void onCreate( Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
 
-        initView();
-
-    }
-
-    private View.OnClickListener mOnClickListener = new View.OnClickListener() {
-
-
-        @Override
-        public void onClick(View view) {
-
-            switch (view.getId()) {
-                case R.id.bt_login://登录
-                    String userName = name.getText().toString();
-                    String userPwd = password.getText().toString();
-                    UserManage.getInstance().saveUserInfo(LoginActivity.this, userName, userPwd);
-                    Toast.makeText(LoginActivity.this, "登录成功", Toast.LENGTH_SHORT).show();
-                    Intent intent = new Intent(LoginActivity.this, HomeActivity.class);//跳转到主页
-                    startActivity(intent);
-                    finish();
-                    break;
-            }
-
-        }
-    };
 
     private void initView() {
 
@@ -85,6 +61,67 @@ public class LoginActivity extends AppCompatActivity  {
             }
         }, 200);
     }
+
+
+    @Override
+    public void onCreate( Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_login);
+
+        initView();
+
+    }
+
+
+    private View.OnClickListener mOnClickListener = new View.OnClickListener() {
+
+
+        @Override
+        public void onClick(View view) {
+
+            switch (view.getId()) {
+                case R.id.bt_login://登录
+                    final String userName = name.getText().toString();
+                    final String userPwd = password.getText().toString();
+                    UserManage.getInstance().saveUserInfo(LoginActivity.this, userName, userPwd);
+                    Toast.makeText(LoginActivity.this, "登录成功", Toast.LENGTH_SHORT).show();
+
+                    Thread thread = new Thread(new Runnable() {
+                        @Override
+                        public void run() {
+
+                            try {
+                                userService.userLogin(userName,userPwd);
+
+                            } catch (Exception e ){
+                                e.printStackTrace();
+
+                            }
+
+                        }
+                    });
+
+                    thread.start();
+
+
+
+                    Intent intent = new Intent(LoginActivity.this, HomeActivity.class);//跳转到主页
+                    startActivity(intent);
+                    finish();
+                    break;
+            }
+
+        }
+    };
+
+    private Handler handler = new Handler(){
+        @Override
+        public void handleMessage(Message msg) {
+            super.handleMessage(msg);
+        }
+    };
+
+
 
 
     /**
