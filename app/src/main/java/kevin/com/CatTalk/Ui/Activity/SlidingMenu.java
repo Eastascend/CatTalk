@@ -82,7 +82,7 @@ public class SlidingMenu extends HorizontalScrollView
 			ViewGroup content = (ViewGroup) wrapper.getChildAt(1);
 
 			mMenuWidth = mScreenWidth - mMenuRightPadding;
-			mHalfMenuWidth = mMenuWidth / 2;
+			mHalfMenuWidth = mMenuWidth / 5;
 			menu.getLayoutParams().width = mMenuWidth;
 			content.getLayoutParams().width = mScreenWidth;
 

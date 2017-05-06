@@ -1,6 +1,7 @@
 package kevin.com.CatTalk.Ui.Activity;
 
 import android.app.DownloadManager;
+import android.app.Fragment;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageInfo;
@@ -11,11 +12,12 @@ import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
 import android.os.SystemClock;
+import android.support.v4.app.FragmentActivity;
+import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AlertDialog;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.Window;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import org.json.JSONException;
@@ -27,11 +29,19 @@ import java.io.InputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.ArrayList;
+import java.util.List;
 
+import io.rong.imkit.RongContext;
+import io.rong.imkit.fragment.ConversationListFragment;
+import io.rong.imlib.model.Conversation;
 import kevin.com.CatTalk.R;
+import kevin.com.CatTalk.Ui.Adapter.ConversationListAdapterEx;
+import kevin.com.CatTalk.Ui.Fragement.FriendFragment;
+import kevin.com.CatTalk.Ui.Fragement.HomeFragment;
 import kevin.com.CatTalk.Utils.StreamUtil;
 
-public class HomeActivity extends AppCompatActivity {
+public class HomeActivity extends FragmentActivity {
 
     private SlidingMenu mMenu;
     protected static final int MSG_UPDATE_DIALOG = 1;
@@ -40,22 +50,22 @@ public class HomeActivity extends AppCompatActivity {
     protected static final int MSG_URL_ERROR = 4;
     protected static final int MSG_IO_ERROR = 5;
     protected static final int MSG_JSON_ERROR = 6;
-    private TextView tv_splash_versionname;
-    private TextView tv_spalsh_plan;
+
     private String code;
     private String apkurl;
     private String des;
-
-
-
+    private ViewPager mViewPager;
+    private FragmentPagerAdapter mFragmentPagerAdapter;  //将Tab页面持久在内存中
+    private Fragment mConversationFragment = null ;
+    private Fragment mConversationList ;
+    private ConversationListFragment mConversationListFragment = null;
+    private List<Fragment> mFragment = new ArrayList<>();
 
     public void initview(){
 
-        tv_spalsh_plan = (TextView) findViewById(R.id.tv_spalsh_plan);
         mMenu = (SlidingMenu) findViewById(R.id.id_menu);
 
     }
-
 
 
     @Override
@@ -64,13 +74,55 @@ public class HomeActivity extends AppCompatActivity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         setContentView(R.layout.activity_home);
 
-
         this.initview();
+
+        mConversationList = initConversationList(); //获取融云会话列表的对象
+
+        mViewPager = (ViewPager) findViewById(R.id.viewpager);
+        mFragment.add(HomeFragment.getInstance());
+        mFragment.add(mConversationList);
+        mFragment.add(FriendFragment.getInstance());
+        mFragmentPagerAdapter = new FragmentPagerAdapter(getSupportFragmentManager()) {
+            @Override
+            public android.support.v4.app.Fragment getItem(int position) {
+                mFragment.get(position);
+                return null;
+            }
+
+            @Override
+            public int getCount() {
+                mFragment.size();
+                return 0;
+            }
+        };
+        mViewPager.setAdapter(mFragmentPagerAdapter);
+
 
         this.update();
 
     }
 
+
+
+    private Fragment initConversationList() {
+        if (mConversationListFragment == null) {
+            ConversationListFragment listFragment = new ConversationListFragment();
+            listFragment.setAdapter();
+            Uri  uri = Uri.parse("rong://" + getApplicationInfo().packageName).buildUpon()
+                        .appendPath("conversationlist")
+                        .appendQueryParameter(Conversation.ConversationType.PRIVATE.getName(), "true") //设置私聊会话是否聚合显示
+                        .appendQueryParameter(Conversation.ConversationType.GROUP.getName(), "true")//群组
+                        .appendQueryParameter(Conversation.ConversationType.SYSTEM.getName(), "true")//系统
+                        .appendQueryParameter(Conversation.ConversationType.DISCUSSION.getName(), "true")
+                        .build();
+
+            listFragment.setUri(uri);
+            mConversationFragment = listFragment;
+            return listFragment;
+        } else {
+            return mConversationFragment;
+        }
+    }
 
 
 
@@ -115,9 +167,6 @@ public class HomeActivity extends AppCompatActivity {
             }
         }
     };
-
-
-
 
 
 
@@ -168,8 +217,6 @@ public class HomeActivity extends AppCompatActivity {
         request.setDestinationInExternalPublicDir(Environment.DIRECTORY_DOWNLOADS,"CatTalk.apk");
         downloadManager.enqueue(request);
         installAPK();
-
-
 
     }
     /**
@@ -302,9 +349,6 @@ public class HomeActivity extends AppCompatActivity {
         }
         return null;
     }
-
-
-
 
 
 }
