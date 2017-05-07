@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="D:\Android\6.Android Code\Ease SDK+Demo\examples\ChatDemoUI3.0\redpacketlibrary\src\main\shaders"/></dataSet><dataSet config="release"><source path="D:\Android\6.Android Code\Ease SDK+Demo\examples\ChatDemoUI3.0\redpacketlibrary\build-types\release\shaders"/></dataSet></merger>
