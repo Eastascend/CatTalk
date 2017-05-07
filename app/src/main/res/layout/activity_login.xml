@@ -49,7 +49,7 @@
                 android:orientation="horizontal">
 
 
-                <kevin.com.CatTalk.Server.widget.ClearWriteEditText
+                <com.demo.CatTalk.Server.widget.ClearWriteEditText
                     android:id="@+id/et_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -84,7 +84,7 @@
                 android:orientation="horizontal">
 
 
-                <kevin.com.CatTalk.Server.widget.ClearWriteEditText
+                <com.demo.CatTalk.Server.widget.ClearWriteEditText
                     android:id="@+id/et_password"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
