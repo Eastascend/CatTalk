@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "D:\\Android\\6.Android Code\\CatTalk\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable-mdpi-v4\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\redpacketlibrary\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-mdpi-v4\\ic_launcher.png",
+        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable-mdpi-v4\\ic_launcher.png"
+    }
+]
