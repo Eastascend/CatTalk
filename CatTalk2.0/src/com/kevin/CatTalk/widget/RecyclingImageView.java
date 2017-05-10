@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.kevin.CatTalk.widget;
+package com.kevin.cattalk.widget;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
@@ -22,7 +22,7 @@ import android.graphics.drawable.LayerDrawable;
 import android.util.AttributeSet;
 import android.widget.ImageView;
 
-import com.kevin.CatTalk.video.util.RecyclingBitmapDrawable;
+import com.kevin.cattalk.video.util.RecyclingBitmapDrawable;
 
 /**
  * Sub-class of ImageView which automatically notifies the drawable when it is

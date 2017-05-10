@@ -11,7 +11,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -31,9 +31,9 @@ import android.widget.Toast;
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.chat.EMGroup;
 import com.hyphenate.exceptions.HyphenateException;
-import com.kevin.CatTalk.Constant;
-import com.kevin.CatTalk.R;
-import com.kevin.CatTalk.adapter.GroupAdapter;
+import com.kevin.cattalk.Constant;
+import com.kevin.cattalk.R;
+import com.kevin.cattalk.adapter.GroupAdapter;
 
 import java.util.List;
 

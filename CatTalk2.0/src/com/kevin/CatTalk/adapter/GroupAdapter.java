@@ -11,7 +11,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.kevin.CatTalk.adapter;
+package com.kevin.cattalk.adapter;
 
 import android.content.Context;
 import android.text.Editable;
@@ -27,7 +27,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.hyphenate.chat.EMGroup;
-import com.kevin.CatTalk.R;
+import com.kevin.cattalk.R;
 
 import java.util.List;
 

@@ -1603,17 +1603,11 @@ containing a value of this type.
         public static int DialogTitleStyle=0x7f06000d;
         public static int DividerStyle=0x7f06000e;
         public static int DividerStyleNoHead=0x7f06000f;
-        /**  模糊 
-         */
         public static int HeadScale=0x7f060010;
         public static int LoadingProgressStyle=0x7f060011;
         public static int MyAlertDialog=0x7f060012;
         public static int MyDialogStyle=0x7f060013;
-        /**  模糊 
-         */
         public static int MyDialogStyleBottom=0x7f060014;
-        /**  模糊 
-         */
         public static int MyDialogStyleTop=0x7f060015;
         public static int ReceivedMoneyStyle=0x7f060016;
         public static int RecordReceivedCountStyle=0x7f060017;

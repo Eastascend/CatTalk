@@ -1,4 +1,4 @@
-package com.kevin.CatTalk.video.util;
+package com.kevin.cattalk.video.util;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -10,7 +10,7 @@ import android.os.Build;
 import android.provider.MediaStore.Video.Thumbnails;
 import android.util.Log;
 
-import com.kevin.CatTalk.BuildConfig;
+import com.kevin.cattalk.BuildConfig;
 
 import java.io.FileDescriptor;
 

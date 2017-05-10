@@ -11,7 +11,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.os.Bundle;
 import android.view.MotionEvent;
@@ -19,8 +19,8 @@ import android.view.View;
 
 import com.easemob.redpacketsdk.constant.RPConstant;
 import com.hyphenate.chat.EMMessage;
-import com.kevin.CatTalk.Constant;
-import com.kevin.CatTalk.R;
+import com.kevin.cattalk.Constant;
+import com.kevin.cattalk.R;
 
 
 public class ContextMenuActivity extends BaseActivity {

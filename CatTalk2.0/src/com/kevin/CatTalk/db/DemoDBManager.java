@@ -1,14 +1,14 @@
-package com.kevin.CatTalk.db;
+package com.kevin.cattalk.db;
 
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.text.TextUtils;
 
-import com.kevin.CatTalk.Constant;
-import com.kevin.CatTalk.DemoApplication;
-import com.kevin.CatTalk.domain.InviteMessage;
-import com.kevin.CatTalk.domain.RobotUser;
+import com.kevin.cattalk.Constant;
+import com.kevin.cattalk.DemoApplication;
+import com.kevin.cattalk.domain.InviteMessage;
+import com.kevin.cattalk.domain.RobotUser;
 import com.hyphenate.easeui.domain.EaseUser;
 import com.hyphenate.easeui.utils.EaseCommonUtils;
 import com.hyphenate.util.HanziToPinyin;

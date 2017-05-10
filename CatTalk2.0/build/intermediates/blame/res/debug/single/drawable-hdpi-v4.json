@@ -40,32 +40,32 @@
         "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\res\\drawable-hdpi\\icon_035.gif"
     },
     {
-        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_input_bar_bg_normal.9.png",
-        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\ease_input_bar_bg_normal.9.png"
+        "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_location_msg.9.png",
+        "source": "D:\\Android\\6.Android Code\\CatTalk\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\ease_location_msg.9.png"
     },
     {
         "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_ic_launcher.png",
         "source": "D:\\Android\\6.Android Code\\CatTalk\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\ease_ic_launcher.png"
     },
     {
-        "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_location_msg.9.png",
-        "source": "D:\\Android\\6.Android Code\\CatTalk\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\ease_location_msg.9.png"
+        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_input_bar_bg_normal.9.png",
+        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\ease_input_bar_bg_normal.9.png"
     },
     {
         "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_record_animate_03.png",
         "source": "D:\\Android\\6.Android Code\\CatTalk\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\ease_record_animate_03.png"
     },
     {
-        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_dx_checkbox_on.png",
-        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\ease_dx_checkbox_on.png"
+        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_18.png",
+        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\ee_18.png"
     },
     {
         "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_icon_marka.png",
         "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\ease_icon_marka.png"
     },
     {
-        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_18.png",
-        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\ee_18.png"
+        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_dx_checkbox_on.png",
+        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\ease_dx_checkbox_on.png"
     },
     {
         "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_19.png",
@@ -196,12 +196,12 @@
         "source": "D:\\Android\\6.Android Code\\CatTalk\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\ease_type_select_btn_pressed.png"
     },
     {
-        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_21.png",
-        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\ee_21.png"
-    },
-    {
         "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_record_animate_03.png",
         "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\ease_record_animate_03.png"
+    },
+    {
+        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ee_21.png",
+        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\ee_21.png"
     },
     {
         "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\ease_record_animate_01.png",

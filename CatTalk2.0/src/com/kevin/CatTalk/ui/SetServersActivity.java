@@ -1,4 +1,4 @@
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -6,8 +6,8 @@ import android.view.View;
 import android.widget.EditText;
 
 import com.hyphenate.easeui.widget.EaseTitleBar;
-import com.kevin.CatTalk.DemoModel;
-import com.kevin.CatTalk.R;
+import com.kevin.cattalk.DemoModel;
+import com.kevin.cattalk.R;
 
 public class SetServersActivity extends BaseActivity {
 

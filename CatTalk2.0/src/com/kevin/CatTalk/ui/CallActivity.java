@@ -1,4 +1,4 @@
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -24,8 +24,8 @@ import com.hyphenate.exceptions.EMServiceNotReadyException;
 import com.hyphenate.media.EMLocalSurfaceView;
 import com.hyphenate.media.EMOppositeSurfaceView;
 import com.hyphenate.util.EMLog;
-import com.kevin.CatTalk.Constant;
-import com.kevin.CatTalk.R;
+import com.kevin.cattalk.Constant;
+import com.kevin.cattalk.R;
 
 
 @SuppressLint("Registered")

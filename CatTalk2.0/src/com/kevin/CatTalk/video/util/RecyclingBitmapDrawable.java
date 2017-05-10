@@ -1,11 +1,11 @@
-package com.kevin.CatTalk.video.util;
+package com.kevin.cattalk.video.util;
 
 import android.content.res.Resources;
 import android.graphics.Bitmap;
 import android.graphics.drawable.BitmapDrawable;
 import android.util.Log;
 
-import com.kevin.CatTalk.BuildConfig;
+import com.kevin.cattalk.BuildConfig;
 
 
 public class RecyclingBitmapDrawable extends BitmapDrawable {

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.kevin.CatTalk.test" >
+    package="com.kevin.cattalk.test" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -10,8 +10,8 @@
         android:name="com.android.test.runner.MultiDexTestRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for com.kevin.CatTalk"
-        android:targetPackage="com.kevin.CatTalk" />
+        android:label="Tests for com.kevin.cattalk"
+        android:targetPackage="com.kevin.cattalk" />
 
     <application>
         <uses-library android:name="android.test.runner" />

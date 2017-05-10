@@ -1,4 +1,4 @@
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,7 +6,7 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
-import com.kevin.CatTalk.R;
+import com.kevin.cattalk.R;
 
 
 public class EditActivity extends BaseActivity{

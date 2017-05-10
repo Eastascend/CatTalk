@@ -11,7 +11,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.app.Dialog;
 import android.app.ProgressDialog;
@@ -41,7 +41,7 @@ import com.hyphenate.easeui.widget.EaseAlertDialog;
 import com.hyphenate.easeui.widget.EaseAlertDialog.AlertDialogUser;
 import com.hyphenate.easeui.widget.EaseExpandGridView;
 import com.hyphenate.exceptions.HyphenateException;
-import com.kevin.CatTalk.R;
+import com.kevin.cattalk.R;
 
 import java.util.ArrayList;
 import java.util.Collections;

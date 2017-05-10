@@ -1,4 +1,4 @@
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.hardware.Camera;
 import android.os.Bundle;
@@ -14,8 +14,8 @@ import android.widget.TextView;
 
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.easeui.widget.EaseSwitchButton;
-import com.kevin.CatTalk.R;
-import com.kevin.CatTalk.utils.PreferenceManager;
+import com.kevin.cattalk.R;
+import com.kevin.cattalk.utils.PreferenceManager;
 
 import java.util.ArrayList;
 import java.util.List;

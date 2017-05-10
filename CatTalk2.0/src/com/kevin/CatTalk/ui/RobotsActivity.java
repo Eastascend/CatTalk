@@ -11,7 +11,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -36,10 +36,10 @@ import com.hyphenate.EMValueCallBack;
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.chat.EMContact;
 import com.hyphenate.exceptions.HyphenateException;
-import com.kevin.CatTalk.DemoHelper;
-import com.kevin.CatTalk.R;
-import com.kevin.CatTalk.db.UserDao;
-import com.kevin.CatTalk.domain.RobotUser;
+import com.kevin.cattalk.DemoHelper;
+import com.kevin.cattalk.R;
+import com.kevin.cattalk.db.UserDao;
+import com.kevin.cattalk.domain.RobotUser;
 
 import java.util.ArrayList;
 import java.util.HashMap;

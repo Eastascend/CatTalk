@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.content.Context;
 import android.content.Intent;
@@ -46,7 +46,7 @@ import com.hyphenate.chat.EMPageResult;
 import com.hyphenate.easeui.ui.EaseChatRoomListener;
 import com.hyphenate.exceptions.HyphenateException;
 import com.hyphenate.util.EMLog;
-import com.kevin.CatTalk.R;
+import com.kevin.cattalk.R;
 
 import java.util.ArrayList;
 import java.util.List;

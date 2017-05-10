@@ -1,4 +1,4 @@
-package com.kevin.CatTalk.widget;
+package com.kevin.cattalk.widget;
 
 import android.content.Context;
 import android.widget.BaseAdapter;
@@ -6,7 +6,7 @@ import android.widget.TextView;
 
 import com.hyphenate.chat.EMMessage;
 import com.hyphenate.chat.EMTextMessageBody;
-import com.kevin.CatTalk.Constant;
+import com.kevin.cattalk.Constant;
 import com.hyphenate.easeui.R;
 import com.hyphenate.easeui.widget.chatrow.EaseChatRow;
 

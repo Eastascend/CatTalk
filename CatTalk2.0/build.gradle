@@ -24,10 +24,19 @@ android {
     buildToolsVersion '25.0.0'
 
     defaultConfig {
-        applicationId "com.kevin.CatTalk"
+        applicationId "com.kevin.cattalk"
         minSdkVersion 19
         targetSdkVersion 25
         multiDexEnabled true
+
+//解决Android xxx is not translated in zh解决办法
+        lintOptions {
+            checkReleaseBuilds false
+            // Or, if you prefer, you can continue to check for errors in release builds,
+            // but continue the build even when errors are found:
+            abortOnError false
+        }
+
     }
 
     sourceSets {
@@ -58,10 +67,10 @@ android {
     
 	signingConfigs {
 		release {
-			storeFile file("../emclient-android/hyphenate.keystore")
-			storePassword "easemob"
-			keyAlias "easemob"
-			keyPassword "easemob"
+			storeFile file("D:\\Android\\6.Android Code\\Keystore\\CatTalk.jks")
+			storePassword "Wds18730453283"
+			keyAlias "key0"
+			keyPassword "Wds18730453283"
 		}
 	}
 	buildTypes {

@@ -16,24 +16,24 @@
         "source": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\res\\drawable-hdpi\\icon_019_cover.png"
     },
     {
-        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_smiley_add_btn_pressed.png",
-        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\res\\drawable-hdpi\\em_smiley_add_btn_pressed.png"
-    },
-    {
         "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_smiley_minus_btn_nor.png",
         "source": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\res\\drawable-hdpi\\em_smiley_minus_btn_nor.png"
+    },
+    {
+        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_smiley_add_btn_pressed.png",
+        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\res\\drawable-hdpi\\em_smiley_add_btn_pressed.png"
     },
     {
         "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_dx_checkbox_off.png",
         "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\res\\drawable-hdpi\\em_dx_checkbox_off.png"
     },
     {
-        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_conversation_selected.png",
-        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\res\\drawable-hdpi\\em_conversation_selected.png"
-    },
-    {
         "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_login_error_icon.png",
         "source": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\res\\drawable-hdpi\\em_login_error_icon.png"
+    },
+    {
+        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_conversation_selected.png",
+        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\res\\drawable-hdpi\\em_conversation_selected.png"
     },
     {
         "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_update_btn_check_off_pressed_holo_light.png",
@@ -44,20 +44,20 @@
         "source": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\res\\drawable-hdpi\\em_dx_checkbox_gray_on.png"
     },
     {
-        "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_btn_style_alert_dialog_background.9.png",
-        "source": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\res\\drawable-hdpi\\em_btn_style_alert_dialog_background.9.png"
-    },
-    {
         "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_ic_right_arrow.png",
         "source": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\res\\drawable-hdpi\\em_ic_right_arrow.png"
     },
     {
-        "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_update_btn_check_on_pressed_holo_light.png",
-        "source": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\res\\drawable-hdpi\\umeng_update_btn_check_on_pressed_holo_light.png"
+        "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_btn_style_alert_dialog_background.9.png",
+        "source": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\res\\drawable-hdpi\\em_btn_style_alert_dialog_background.9.png"
     },
     {
         "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_040_cover.png",
         "source": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\res\\drawable-hdpi\\icon_040_cover.png"
+    },
+    {
+        "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\umeng_update_btn_check_on_pressed_holo_light.png",
+        "source": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\res\\drawable-hdpi\\umeng_update_btn_check_on_pressed_holo_light.png"
     },
     {
         "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\em_icon_pwd.png",

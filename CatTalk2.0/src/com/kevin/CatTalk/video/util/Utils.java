@@ -1,4 +1,4 @@
-package com.kevin.CatTalk.video.util;
+package com.kevin.cattalk.video.util;
 
 import android.annotation.SuppressLint;
 import android.hardware.Camera;
@@ -8,7 +8,7 @@ import android.os.Build;
 import android.os.Build.VERSION_CODES;
 import android.os.StrictMode;
 
-import com.kevin.CatTalk.ui.ImageGridActivity;
+import com.kevin.cattalk.ui.ImageGridActivity;
 
 import java.util.Comparator;
 import java.util.List;

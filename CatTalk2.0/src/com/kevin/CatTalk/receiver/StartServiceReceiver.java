@@ -9,7 +9,7 @@
   * is strictly forbidden unless prior written permission is obtained
   * from Hyphenate Inc.
   */
-package com.kevin.CatTalk.receiver;
+package com.kevin.cattalk.receiver;
 
 import com.hyphenate.chat.EMChatService;
 import com.hyphenate.util.EMLog;

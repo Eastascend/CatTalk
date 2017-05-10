@@ -11,14 +11,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.kevin.CatTalk.db;
+package com.kevin.cattalk.db;
 
 import java.util.List;
 import java.util.Map;
 
 import android.content.Context;
 
-import com.kevin.CatTalk.domain.RobotUser;
+import com.kevin.cattalk.domain.RobotUser;
 import com.hyphenate.easeui.domain.EaseUser;
 
 public class UserDao {

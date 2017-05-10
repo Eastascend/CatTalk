@@ -1,4 +1,4 @@
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.content.Context;
 import android.content.Intent;
@@ -17,7 +17,7 @@ import com.hyphenate.easeui.adapter.EaseContactAdapter;
 import com.hyphenate.easeui.domain.EaseUser;
 import com.hyphenate.easeui.utils.EaseUserUtils;
 import com.hyphenate.easeui.widget.EaseSidebar;
-import com.kevin.CatTalk.R;
+import com.kevin.cattalk.R;
 
 import java.util.ArrayList;
 import java.util.Collections;

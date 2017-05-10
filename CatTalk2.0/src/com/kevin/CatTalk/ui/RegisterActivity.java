@@ -11,7 +11,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
@@ -23,8 +23,8 @@ import android.widget.Toast;
 import com.hyphenate.EMError;
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.exceptions.HyphenateException;
-import com.kevin.CatTalk.DemoHelper;
-import com.kevin.CatTalk.R;
+import com.kevin.cattalk.DemoHelper;
+import com.kevin.cattalk.R;
 
 /**
  * register screen

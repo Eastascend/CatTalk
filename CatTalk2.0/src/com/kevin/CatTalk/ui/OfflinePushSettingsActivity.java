@@ -1,4 +1,4 @@
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
@@ -12,7 +12,7 @@ import com.hyphenate.chat.EMClient;
 import com.hyphenate.chat.EMPushConfigs;
 import com.hyphenate.easeui.widget.EaseTitleBar;
 import com.hyphenate.exceptions.HyphenateException;
-import com.kevin.CatTalk.R;
+import com.kevin.cattalk.R;
 
 /**
  * Created by wei on 2016/12/6.

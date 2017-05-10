@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.kevin.CatTalk"
+    package="com.kevin.cattalk"
     android:versionCode="1"
     android:versionName="2.0.1" >
 
@@ -45,12 +45,12 @@
     <uses-permission android:name="com.hyphenate.chatuidemo.permission.MIPUSH_RECEIVE" />
 
     <application
-        android:name="com.kevin.CatTalk.DemoApplication"
+        android:name="com.kevin.cattalk.DemoApplication"
         android:allowBackup="true"
         android:icon="@drawable/em_logo_uidemo"
         android:label="@string/app_name" >
         <activity
-            android:name="com.kevin.CatTalk.ui.MainActivity"
+            android:name="com.kevin.cattalk.ui.MainActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
@@ -58,7 +58,7 @@
 
         <!-- 开屏页 -->
         <activity
-            android:name="com.kevin.CatTalk.ui.SplashActivity"
+            android:name="com.kevin.cattalk.ui.SplashActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" >
             <intent-filter>
@@ -70,73 +70,73 @@
 
         <!-- 登陆 -->
         <activity
-            android:name="com.kevin.CatTalk.ui.LoginActivity"
+            android:name="com.kevin.cattalk.ui.LoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustResize|stateVisible" />
 
         <!-- 注册 -->
         <activity
-            android:name="com.kevin.CatTalk.ui.RegisterActivity"
+            android:name="com.kevin.cattalk.ui.RegisterActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustResize|stateVisible" />
         <!-- 聊天页面 -->
         <activity
-            android:name="com.kevin.CatTalk.ui.ChatActivity"
+            android:name="com.kevin.cattalk.ui.ChatActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustResize" />
         <!-- 添加好友 -->
         <activity
-            android:name="com.kevin.CatTalk.ui.AddContactActivity"
+            android:name="com.kevin.cattalk.ui.AddContactActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="stateVisible" />
         <!-- 群组详情 -->
         <activity
-            android:name="com.kevin.CatTalk.ui.GroupDetailsActivity"
+            android:name="com.kevin.cattalk.ui.GroupDetailsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
         <!-- 群组列表 -->
         <activity
-            android:name="com.kevin.CatTalk.ui.GroupsActivity"
+            android:name="com.kevin.cattalk.ui.GroupsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustPan" />
 
         <!-- 聊天室详情 -->
         <activity
-            android:name="com.kevin.CatTalk.ui.ChatRoomDetailsActivity"
+            android:name="com.kevin.cattalk.ui.ChatRoomDetailsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
         <!-- 新建聊天室 -->
         <activity
-            android:name="com.kevin.CatTalk.ui.NewChatRoomActivity"
+            android:name="com.kevin.cattalk.ui.NewChatRoomActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustPan" />
 
         <!-- 新建群组 -->
         <activity
-            android:name="com.kevin.CatTalk.ui.NewGroupActivity"
+            android:name="com.kevin.cattalk.ui.NewGroupActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustPan" />
         <!-- 退出群组提示框 -->
         <activity
-            android:name="com.kevin.CatTalk.ui.ExitGroupDialog"
+            android:name="com.kevin.cattalk.ui.ExitGroupDialog"
             android:screenOrientation="portrait"
             android:theme="@style/MyDialogStyleBottom" />
         <!-- 群组选人 -->
         <activity
-            android:name="com.kevin.CatTalk.ui.GroupPickContactsActivity"
+            android:name="com.kevin.cattalk.ui.GroupPickContactsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="com.kevin.CatTalk.ui.PickAtUserActivity"
+            android:name="com.kevin.cattalk.ui.PickAtUserActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
         <!-- 地图 -->
@@ -147,18 +147,18 @@
 
         <!-- 新的朋友邀请消息页面 -->
         <activity
-            android:name="com.kevin.CatTalk.ui.NewFriendsMsgActivity"
+            android:name="com.kevin.cattalk.ui.NewFriendsMsgActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
         <!-- 转发消息用户列表页面 -->
         <activity
-            android:name="com.kevin.CatTalk.ui.ForwardMessageActivity"
+            android:name="com.kevin.cattalk.ui.ForwardMessageActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustPan" />
         <!-- 自定义的contextmenu -->
         <activity
-            android:name="com.kevin.CatTalk.ui.ContextMenuActivity"
+            android:name="com.kevin.cattalk.ui.ContextMenuActivity"
             android:screenOrientation="portrait"
             android:theme="@style/MyDialogStyle" />
         <!-- 显示下载大图页面 -->
@@ -173,56 +173,56 @@
             android:theme="@style/horizontal_slide" />
         <!-- 黑名单 -->
         <activity
-            android:name="com.kevin.CatTalk.ui.BlacklistActivity"
+            android:name="com.kevin.cattalk.ui.BlacklistActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
 
         <!-- 公开的群聊列表 -->
         <activity
-            android:name="com.kevin.CatTalk.ui.PublicGroupsActivity"
+            android:name="com.kevin.cattalk.ui.PublicGroupsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name="com.kevin.CatTalk.ui.PublicChatRoomsActivity"
+            android:name="com.kevin.cattalk.ui.PublicChatRoomsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="adjustPan" />
 
         <!-- 语音通话 -->
         <activity
-            android:name="com.kevin.CatTalk.ui.VoiceCallActivity"
+            android:name="com.kevin.cattalk.ui.VoiceCallActivity"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/nornal_style" />
         <!-- 视频通话 -->
         <activity
-            android:name="com.kevin.CatTalk.ui.VideoCallActivity"
+            android:name="com.kevin.cattalk.ui.VideoCallActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
         <!-- 群聊简单信息 -->
         <activity
-            android:name="com.kevin.CatTalk.ui.GroupSimpleDetailActivity"
+            android:name="com.kevin.cattalk.ui.GroupSimpleDetailActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
         <!-- 群组黑名单用户列表 -->
         <activity
-            android:name="com.kevin.CatTalk.ui.GroupBlacklistActivity"
+            android:name="com.kevin.cattalk.ui.GroupBlacklistActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
         <activity
-            android:name="com.kevin.CatTalk.ui.GroupSearchMessageActivity"
+            android:name="com.kevin.cattalk.ui.GroupSearchMessageActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="stateVisible" />
         <activity
-            android:name="com.kevin.CatTalk.ui.PublicGroupsSeachActivity"
+            android:name="com.kevin.cattalk.ui.PublicGroupsSeachActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
         <activity
-            android:name="com.kevin.CatTalk.ui.EditActivity"
+            android:name="com.kevin.cattalk.ui.EditActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="stateVisible" />
@@ -233,49 +233,49 @@
             android:windowSoftInputMode="stateAlwaysHidden" />
         <!-- choose video -->
         <activity
-            android:name="com.kevin.CatTalk.ui.ImageGridActivity"
+            android:name="com.kevin.cattalk.ui.ImageGridActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <activity
-            android:name="com.kevin.CatTalk.ui.RecorderVideoActivity"
+            android:name="com.kevin.cattalk.ui.RecorderVideoActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <!-- upload error log -->
         <activity
-            android:name="com.kevin.CatTalk.ui.DiagnoseActivity"
+            android:name="com.kevin.cattalk.ui.DiagnoseActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="stateAlwaysHidden" />
 
         <!-- iOS offline push nick -->
         <activity
-            android:name="com.kevin.CatTalk.ui.OfflinePushNickActivity"
+            android:name="com.kevin.cattalk.ui.OfflinePushNickActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <!-- robots list -->
         <activity
-            android:name="com.kevin.CatTalk.ui.RobotsActivity"
+            android:name="com.kevin.cattalk.ui.RobotsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide"
             android:windowSoftInputMode="stateAlwaysHidden" />
         <!-- user profile -->
         <activity
-            android:name="com.kevin.CatTalk.ui.UserProfileActivity"
+            android:name="com.kevin.cattalk.ui.UserProfileActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
         <activity
-            android:name="com.kevin.CatTalk.ui.SetServersActivity"
+            android:name="com.kevin.cattalk.ui.SetServersActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
         <activity
-            android:name="com.kevin.CatTalk.ui.OfflinePushSettingsActivity"
+            android:name="com.kevin.cattalk.ui.OfflinePushSettingsActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
         <activity
-            android:name="com.kevin.CatTalk.ui.CallOptionActivity"
+            android:name="com.kevin.cattalk.ui.CallOptionActivity"
             android:screenOrientation="portrait"
             android:theme="@style/horizontal_slide" />
 
@@ -355,7 +355,7 @@
 
 
         <!-- 开机自启动服务 -->
-        <receiver android:name="com.kevin.CatTalk.receiver.StartServiceReceiver" >
+        <receiver android:name="com.kevin.cattalk.receiver.StartServiceReceiver" >
             <intent-filter android:priority="1000" >
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.intent.action.QUICKBOOT_POWERON" />
@@ -381,7 +381,7 @@
             android:exported="false" />
 
         <receiver
-            android:name="com.kevin.CatTalk.receiver.GCMPushBroadCast"
+            android:name="com.kevin.cattalk.receiver.GCMPushBroadCast"
             android:exported="false" >
             <intent-filter>
                 <action android:name="com.hyphenate.sdk.push" />
@@ -489,28 +489,23 @@
             </intent-filter>
         </receiver>
 
-        <!--
-            &lt;!&ndash; 百度地图所需的service &ndash;&gt;
+        <!-- 百度地图所需的service -->
         <service
             android:name="com.baidu.location.f"
             android:enabled="true"
             android:process=":remote" />
-        -->
+
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="vQDihVukdg7KGwpbGNIpWE8nMipRbzXC" />
+
         <!-- umeng appkey，可忽略 -->
         <meta-data
             android:name="UMENG_APPKEY"
             android:value="590f1a1b5312dd6153000a7c" />
-        <!--
-            <meta-data
+        <meta-data
             android:name="UMENG_CHANNEL"
-            android:value="hyphenate" />
-        -->
-        <!--
-            <meta-data
-            android:name="com.baidu.lbsapi.API_KEY"
-            android:value="3ecea51f560650b1ed8a4b99808f52e8" />
-        -->
-
+            android:value="Wandoujia" />
     </application>
 
 </manifest>

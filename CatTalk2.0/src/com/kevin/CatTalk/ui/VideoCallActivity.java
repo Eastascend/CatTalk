@@ -11,7 +11,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.hardware.Camera;
 import android.media.AudioManager;
@@ -45,8 +45,8 @@ import com.hyphenate.exceptions.HyphenateException;
 import com.hyphenate.media.EMLocalSurfaceView;
 import com.hyphenate.media.EMOppositeSurfaceView;
 import com.hyphenate.util.EMLog;
-import com.kevin.CatTalk.DemoHelper;
-import com.kevin.CatTalk.R;
+import com.kevin.cattalk.DemoHelper;
+import com.kevin.cattalk.R;
 import com.superrtc.sdk.VideoView;
 
 import java.text.DateFormat;

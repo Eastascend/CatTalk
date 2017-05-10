@@ -1,4 +1,4 @@
-package com.kevin.CatTalk.receiver;
+package com.kevin.cattalk.receiver;
 
 import android.app.Notification;
 import android.app.NotificationManager;

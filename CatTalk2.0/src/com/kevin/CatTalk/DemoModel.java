@@ -1,10 +1,10 @@
-package com.kevin.CatTalk;
+package com.kevin.cattalk;
 
 import android.content.Context;
 
-import com.kevin.CatTalk.db.UserDao;
-import com.kevin.CatTalk.domain.RobotUser;
-import com.kevin.CatTalk.utils.PreferenceManager;
+import com.kevin.cattalk.db.UserDao;
+import com.kevin.cattalk.domain.RobotUser;
+import com.kevin.cattalk.utils.PreferenceManager;
 import com.hyphenate.easeui.domain.EaseUser;
 import com.hyphenate.easeui.model.EaseAtMessageHelper;
 

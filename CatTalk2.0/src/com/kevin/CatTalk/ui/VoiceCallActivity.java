@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.media.AudioManager;
 import android.media.RingtoneManager;
@@ -37,8 +37,8 @@ import com.hyphenate.chat.EMCallStateChangeListener;
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.exceptions.HyphenateException;
 import com.hyphenate.util.EMLog;
-import com.kevin.CatTalk.DemoHelper;
-import com.kevin.CatTalk.R;
+import com.kevin.cattalk.DemoHelper;
+import com.kevin.cattalk.R;
 
 import java.util.UUID;
 

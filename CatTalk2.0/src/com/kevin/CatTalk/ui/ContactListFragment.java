@@ -11,7 +11,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.annotation.SuppressLint;
 import android.app.ProgressDialog;
@@ -32,12 +32,12 @@ import com.hyphenate.easeui.domain.EaseUser;
 import com.hyphenate.easeui.ui.EaseContactListFragment;
 import com.hyphenate.util.EMLog;
 import com.hyphenate.util.NetUtils;
-import com.kevin.CatTalk.DemoHelper;
-import com.kevin.CatTalk.DemoHelper.DataSyncListener;
-import com.kevin.CatTalk.R;
-import com.kevin.CatTalk.db.InviteMessgeDao;
-import com.kevin.CatTalk.db.UserDao;
-import com.kevin.CatTalk.widget.ContactItemView;
+import com.kevin.cattalk.DemoHelper;
+import com.kevin.cattalk.DemoHelper.DataSyncListener;
+import com.kevin.cattalk.R;
+import com.kevin.cattalk.db.InviteMessgeDao;
+import com.kevin.cattalk.db.UserDao;
+import com.kevin.cattalk.widget.ContactItemView;
 
 import java.util.Hashtable;
 import java.util.Map;

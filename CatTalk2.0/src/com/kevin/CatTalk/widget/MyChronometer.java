@@ -1,4 +1,4 @@
-package com.kevin.CatTalk.widget;
+package com.kevin.cattalk.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;

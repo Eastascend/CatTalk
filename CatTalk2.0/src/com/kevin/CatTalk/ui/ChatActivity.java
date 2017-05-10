@@ -1,4 +1,4 @@
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,8 +6,8 @@ import android.support.annotation.NonNull;
 
 import com.hyphenate.easeui.ui.EaseChatFragment;
 import com.hyphenate.util.EasyUtils;
-import com.kevin.CatTalk.R;
-import com.kevin.CatTalk.runtimepermissions.PermissionsManager;
+import com.kevin.cattalk.R;
+import com.kevin.cattalk.runtimepermissions.PermissionsManager;
 
 /**
  * chat activity，EaseChatFragment was used {@link #EaseChatFragment}

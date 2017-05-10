@@ -11,7 +11,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
@@ -46,13 +46,13 @@ import com.hyphenate.chat.EMConversation.EMConversationType;
 import com.hyphenate.chat.EMMessage;
 import com.hyphenate.easeui.utils.EaseCommonUtils;
 import com.hyphenate.util.EMLog;
-import com.kevin.CatTalk.Constant;
-import com.kevin.CatTalk.DemoHelper;
-import com.kevin.CatTalk.R;
-import com.kevin.CatTalk.db.InviteMessgeDao;
-import com.kevin.CatTalk.db.UserDao;
-import com.kevin.CatTalk.runtimepermissions.PermissionsManager;
-import com.kevin.CatTalk.runtimepermissions.PermissionsResultAction;
+import com.kevin.cattalk.Constant;
+import com.kevin.cattalk.DemoHelper;
+import com.kevin.cattalk.R;
+import com.kevin.cattalk.db.InviteMessgeDao;
+import com.kevin.cattalk.db.UserDao;
+import com.kevin.cattalk.runtimepermissions.PermissionsManager;
+import com.kevin.cattalk.runtimepermissions.PermissionsResultAction;
 import com.umeng.analytics.MobclickAgent;
 import com.umeng.update.UmengUpdateAgent;
 

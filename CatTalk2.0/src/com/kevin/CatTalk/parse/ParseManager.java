@@ -1,10 +1,10 @@
-package com.kevin.CatTalk.parse;
+package com.kevin.cattalk.parse;
 
 import android.content.Context;
 
 import com.hyphenate.EMValueCallBack;
 import com.hyphenate.chat.EMClient;
-import com.kevin.CatTalk.DemoHelper;
+import com.kevin.cattalk.DemoHelper;
 import com.hyphenate.easeui.domain.EaseUser;
 import com.hyphenate.easeui.utils.EaseCommonUtils;
 import com.hyphenate.util.EMLog;

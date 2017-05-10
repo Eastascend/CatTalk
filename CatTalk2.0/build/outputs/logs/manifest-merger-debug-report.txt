@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:2:1-517:12
+ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:2:1-521:12
 	package
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:4:5-32
 		INJECTED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml
@@ -19,10 +19,10 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:2:1-
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:2:11-69
 uses-sdk
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:8:5-11:57
-MERGED from [com.android.support:multidex:1.0.1] C:\Users\Kevin Wong\.android\build-cache\361c2eb37f7149b81720d7ba3192baad206785a1\output\AndroidManifest.xml:18:5-42
 MERGED from [CatTalk2.0:redpacketlibrary:unspecified] D:\Android\6.Android Code\CatTalk\CatTalk2.0\redpacketlibrary\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
 MERGED from [com.hyphenate.redpacket:redpacket-alipay:1.1.2] C:\Users\Kevin Wong\.android\build-cache\74cc77d18504891b652ec6ef026a06a5ac05fe14\output\AndroidManifest.xml:8:5-10:41
 MERGED from [CatTalk2.0:EaseUI:unspecified] D:\Android\6.Android Code\CatTalk\easeui\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\Kevin Wong\.android\build-cache\361c2eb37f7149b81720d7ba3192baad206785a1\output\AndroidManifest.xml:18:5-42
 	tools:overrideLibrary
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:11:9-54
 	android:targetSdkVersion
@@ -138,7 +138,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:47:5
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:47:22-87
 application
-ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:49:5-515:19
+ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:49:5-519:19
 	android:label
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:53:9-41
 	android:allowBackup
@@ -147,7 +147,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:49:5
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:52:9-48
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:50:9-57
-activity#com.kevin.CatTalk.ui.MainActivity
+activity#com.kevin.cattalk.ui.MainActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:54:9-59:55
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:57:13-49
@@ -159,7 +159,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:54:9
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:58:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:55:13-61
-activity#com.kevin.CatTalk.ui.SplashActivity
+activity#com.kevin.cattalk.ui.SplashActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:62:9-71:20
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:64:13-49
@@ -177,7 +177,7 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:69:17-77
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:69:27-74
-activity#com.kevin.CatTalk.ui.LoginActivity
+activity#com.kevin.cattalk.ui.LoginActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:74:9-78:71
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:76:13-49
@@ -187,7 +187,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:74:9
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:77:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:75:13-62
-activity#com.kevin.CatTalk.ui.RegisterActivity
+activity#com.kevin.cattalk.ui.RegisterActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:81:9-85:71
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:83:13-49
@@ -197,7 +197,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:81:9
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:84:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:82:13-65
-activity#com.kevin.CatTalk.ui.ChatActivity
+activity#com.kevin.cattalk.ui.ChatActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:87:9-92:58
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:90:13-49
@@ -209,7 +209,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:87:9
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:91:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:88:13-61
-activity#com.kevin.CatTalk.ui.AddContactActivity
+activity#com.kevin.cattalk.ui.AddContactActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:94:9-98:58
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:96:13-49
@@ -219,7 +219,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:94:9
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:97:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:95:13-67
-activity#com.kevin.CatTalk.ui.GroupDetailsActivity
+activity#com.kevin.cattalk.ui.GroupDetailsActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:100:9-103:55
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:102:13-49
@@ -227,7 +227,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:100:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:103:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:101:13-69
-activity#com.kevin.CatTalk.ui.GroupsActivity
+activity#com.kevin.cattalk.ui.GroupsActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:105:9-109:55
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:107:13-49
@@ -237,7 +237,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:105:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:108:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:106:13-63
-activity#com.kevin.CatTalk.ui.ChatRoomDetailsActivity
+activity#com.kevin.cattalk.ui.ChatRoomDetailsActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:112:9-115:55
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:114:13-49
@@ -245,7 +245,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:112:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:115:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:113:13-72
-activity#com.kevin.CatTalk.ui.NewChatRoomActivity
+activity#com.kevin.cattalk.ui.NewChatRoomActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:117:9-121:55
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:119:13-49
@@ -255,7 +255,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:117:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:120:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:118:13-68
-activity#com.kevin.CatTalk.ui.NewGroupActivity
+activity#com.kevin.cattalk.ui.NewGroupActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:124:9-128:55
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:126:13-49
@@ -265,7 +265,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:124:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:127:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:125:13-65
-activity#com.kevin.CatTalk.ui.ExitGroupDialog
+activity#com.kevin.cattalk.ui.ExitGroupDialog
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:130:9-133:58
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:132:13-49
@@ -273,7 +273,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:130:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:133:13-55
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:131:13-64
-activity#com.kevin.CatTalk.ui.GroupPickContactsActivity
+activity#com.kevin.cattalk.ui.GroupPickContactsActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:135:9-139:55
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:137:13-49
@@ -283,7 +283,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:135:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:138:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:136:13-74
-activity#com.kevin.CatTalk.ui.PickAtUserActivity
+activity#com.kevin.cattalk.ui.PickAtUserActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:140:9-143:55
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:142:13-49
@@ -299,7 +299,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:145:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:148:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:146:13-72
-activity#com.kevin.CatTalk.ui.NewFriendsMsgActivity
+activity#com.kevin.cattalk.ui.NewFriendsMsgActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:151:9-154:55
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:153:13-49
@@ -307,7 +307,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:151:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:154:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:152:13-70
-activity#com.kevin.CatTalk.ui.ForwardMessageActivity
+activity#com.kevin.cattalk.ui.ForwardMessageActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:156:9-160:55
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:158:13-49
@@ -317,7 +317,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:156:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:159:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:157:13-71
-activity#com.kevin.CatTalk.ui.ContextMenuActivity
+activity#com.kevin.cattalk.ui.ContextMenuActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:162:9-165:52
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:164:13-49
@@ -341,7 +341,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:172:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:175:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:173:13-78
-activity#com.kevin.CatTalk.ui.BlacklistActivity
+activity#com.kevin.cattalk.ui.BlacklistActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:177:9-180:55
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:179:13-49
@@ -349,7 +349,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:177:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:180:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:178:13-66
-activity#com.kevin.CatTalk.ui.PublicGroupsActivity
+activity#com.kevin.cattalk.ui.PublicGroupsActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:183:9-187:55
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:185:13-49
@@ -359,7 +359,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:183:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:186:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:184:13-69
-activity#com.kevin.CatTalk.ui.PublicChatRoomsActivity
+activity#com.kevin.cattalk.ui.PublicChatRoomsActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:188:9-192:55
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:190:13-49
@@ -369,7 +369,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:188:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:191:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:189:13-72
-activity#com.kevin.CatTalk.ui.VoiceCallActivity
+activity#com.kevin.cattalk.ui.VoiceCallActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:195:9-199:51
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:198:13-49
@@ -379,7 +379,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:195:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:199:13-48
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:196:13-66
-activity#com.kevin.CatTalk.ui.VideoCallActivity
+activity#com.kevin.cattalk.ui.VideoCallActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:201:9-206:55
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:205:13-49
@@ -391,7 +391,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:201:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:206:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:202:13-66
-activity#com.kevin.CatTalk.ui.GroupSimpleDetailActivity
+activity#com.kevin.cattalk.ui.GroupSimpleDetailActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:208:9-211:55
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:210:13-49
@@ -399,7 +399,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:208:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:211:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:209:13-74
-activity#com.kevin.CatTalk.ui.GroupBlacklistActivity
+activity#com.kevin.cattalk.ui.GroupBlacklistActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:213:9-216:55
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:215:13-49
@@ -407,7 +407,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:213:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:216:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:214:13-71
-activity#com.kevin.CatTalk.ui.GroupSearchMessageActivity
+activity#com.kevin.cattalk.ui.GroupSearchMessageActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:217:9-221:58
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:219:13-49
@@ -417,7 +417,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:217:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:220:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:218:13-75
-activity#com.kevin.CatTalk.ui.PublicGroupsSeachActivity
+activity#com.kevin.cattalk.ui.PublicGroupsSeachActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:222:9-225:55
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:224:13-49
@@ -425,7 +425,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:222:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:225:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:223:13-74
-activity#com.kevin.CatTalk.ui.EditActivity
+activity#com.kevin.cattalk.ui.EditActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:226:9-230:58
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:228:13-49
@@ -445,7 +445,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:231:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:234:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:232:13-73
-activity#com.kevin.CatTalk.ui.ImageGridActivity
+activity#com.kevin.cattalk.ui.ImageGridActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:237:9-241:63
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:239:13-49
@@ -455,7 +455,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:237:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:240:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:238:13-66
-activity#com.kevin.CatTalk.ui.RecorderVideoActivity
+activity#com.kevin.cattalk.ui.RecorderVideoActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:242:9-246:63
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:244:13-49
@@ -465,7 +465,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:242:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:245:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:243:13-70
-activity#com.kevin.CatTalk.ui.DiagnoseActivity
+activity#com.kevin.cattalk.ui.DiagnoseActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:248:9-252:63
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:250:13-49
@@ -475,7 +475,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:248:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:251:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:249:13-65
-activity#com.kevin.CatTalk.ui.OfflinePushNickActivity
+activity#com.kevin.cattalk.ui.OfflinePushNickActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:255:9-259:63
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:257:13-49
@@ -485,7 +485,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:255:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:258:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:256:13-72
-activity#com.kevin.CatTalk.ui.RobotsActivity
+activity#com.kevin.cattalk.ui.RobotsActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:261:9-265:63
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:263:13-49
@@ -495,7 +495,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:261:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:264:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:262:13-63
-activity#com.kevin.CatTalk.ui.UserProfileActivity
+activity#com.kevin.cattalk.ui.UserProfileActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:267:9-270:55
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:269:13-49
@@ -503,7 +503,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:267:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:270:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:268:13-68
-activity#com.kevin.CatTalk.ui.SetServersActivity
+activity#com.kevin.cattalk.ui.SetServersActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:271:9-274:55
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:273:13-49
@@ -511,7 +511,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:271:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:274:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:272:13-67
-activity#com.kevin.CatTalk.ui.OfflinePushSettingsActivity
+activity#com.kevin.cattalk.ui.OfflinePushSettingsActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:275:9-278:55
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:277:13-49
@@ -519,7 +519,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:275:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:278:13-52
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:276:13-76
-activity#com.kevin.CatTalk.ui.CallOptionActivity
+activity#com.kevin.cattalk.ui.CallOptionActivity
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:282:9-285:55
 	android:screenOrientation
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:284:13-49
@@ -591,7 +591,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:320:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:322:13-74
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:321:13-61
-receiver#com.kevin.CatTalk.receiver.StartServiceReceiver
+receiver#com.kevin.cattalk.receiver.StartServiceReceiver
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:362:9-369:20
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:362:19-81
@@ -631,7 +631,7 @@ ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:383:
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:385:13-37
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:384:13-67
-receiver#com.kevin.CatTalk.receiver.GCMPushBroadCast
+receiver#com.kevin.cattalk.receiver.GCMPushBroadCast
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:387:9-395:20
 	android:exported
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:389:13-37
@@ -793,9 +793,29 @@ action#android.intent.action.USER_PRESENT
 ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:495:17-77
 	android:name
 		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:495:25-74
-meta-data#UMENG_APPKEY
-ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:505:9-507:56
-	android:value
-		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:507:13-53
+service#com.baidu.location.f
+ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:500:9-503:41
+	android:enabled
+		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:502:13-35
+	android:process
+		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:503:13-38
 	android:name
-		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:506:13-40
+		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:501:13-48
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:505:10-507:64
+	android:value
+		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:507:13-61
+	android:name
+		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:506:13-52
+meta-data#UMENG_APPKEY
+ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:511:9-513:56
+	android:value
+		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:513:13-53
+	android:name
+		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:512:13-40
+meta-data#UMENG_CHANNEL
+ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:514:9-516:41
+	android:value
+		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:516:13-38
+	android:name
+		ADDED from D:\Android\6.Android Code\CatTalk\CatTalk2.0\AndroidManifest.xml:515:13-41

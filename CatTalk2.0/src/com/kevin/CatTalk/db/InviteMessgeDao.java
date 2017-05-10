@@ -11,14 +11,14 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.kevin.CatTalk.db;
+package com.kevin.cattalk.db;
 
 import java.util.List;
 
 import android.content.ContentValues;
 import android.content.Context;
 
-import com.kevin.CatTalk.domain.InviteMessage;
+import com.kevin.cattalk.domain.InviteMessage;
 
 public class InviteMessgeDao {
 	static final String TABLE_NAME = "new_friends_msgs";

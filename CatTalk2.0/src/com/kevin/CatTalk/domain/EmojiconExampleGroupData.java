@@ -1,10 +1,10 @@
-package com.kevin.CatTalk.domain;
+package com.kevin.cattalk.domain;
 
 import com.hyphenate.easeui.domain.EaseEmojicon;
 import com.hyphenate.easeui.domain.EaseEmojicon.Type;
 import com.hyphenate.easeui.domain.EaseEmojiconGroupEntity;
-import com.kevin.CatTalk.DemoApplication;
-import com.kevin.CatTalk.R;
+import com.kevin.cattalk.DemoApplication;
+import com.kevin.cattalk.R;
 
 import java.util.Arrays;
 

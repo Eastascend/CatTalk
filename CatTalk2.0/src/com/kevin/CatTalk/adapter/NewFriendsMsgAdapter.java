@@ -11,7 +11,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.kevin.CatTalk.adapter;
+package com.kevin.cattalk.adapter;
 
 import android.app.Activity;
 import android.app.ProgressDialog;
@@ -29,9 +29,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.hyphenate.chat.EMClient;
-import com.kevin.CatTalk.R;
-import com.kevin.CatTalk.db.InviteMessgeDao;
-import com.kevin.CatTalk.domain.InviteMessage;
+import com.kevin.cattalk.R;
+import com.kevin.cattalk.db.InviteMessgeDao;
+import com.kevin.cattalk.domain.InviteMessage;
 
 import java.util.List;
 

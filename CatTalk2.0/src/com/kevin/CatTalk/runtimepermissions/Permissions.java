@@ -11,7 +11,7 @@
  either express or implied. See the License for the specific language governing
  permissions and limitations under the License.
  */
-package com.kevin.CatTalk.runtimepermissions;
+package com.kevin.cattalk.runtimepermissions;
 
 /**
  * Enum class to handle the different states

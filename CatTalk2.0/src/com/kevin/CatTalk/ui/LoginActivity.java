@@ -11,7 +11,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
@@ -32,10 +32,10 @@ import android.widget.Toast;
 import com.hyphenate.EMCallBack;
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.easeui.utils.EaseCommonUtils;
-import com.kevin.CatTalk.DemoApplication;
-import com.kevin.CatTalk.DemoHelper;
-import com.kevin.CatTalk.R;
-import com.kevin.CatTalk.db.DemoDBManager;
+import com.kevin.cattalk.DemoApplication;
+import com.kevin.cattalk.DemoHelper;
+import com.kevin.cattalk.R;
+import com.kevin.cattalk.db.DemoDBManager;
 
 /**
  * Login screen

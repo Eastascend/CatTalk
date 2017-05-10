@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.app.ProgressDialog;
 import android.os.Bundle;
@@ -26,7 +26,7 @@ import com.hyphenate.chat.EMClient;
 import com.hyphenate.chat.EMGroup;
 import com.hyphenate.chat.EMGroupInfo;
 import com.hyphenate.exceptions.HyphenateException;
-import com.kevin.CatTalk.R;
+import com.kevin.cattalk.R;
 
 public class GroupSimpleDetailActivity extends BaseActivity {
 	private Button btn_add_group;

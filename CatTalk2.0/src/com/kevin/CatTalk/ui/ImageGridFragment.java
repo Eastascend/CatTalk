@@ -1,4 +1,4 @@
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.annotation.TargetApi;
 import android.app.Activity;
@@ -30,13 +30,13 @@ import android.widget.Toast;
 import com.hyphenate.util.DateUtils;
 import com.hyphenate.util.EMLog;
 import com.hyphenate.util.TextFormater;
-import com.kevin.CatTalk.BuildConfig;
-import com.kevin.CatTalk.R;
-import com.kevin.CatTalk.domain.VideoEntity;
-import com.kevin.CatTalk.video.util.ImageCache;
-import com.kevin.CatTalk.video.util.ImageResizer;
-import com.kevin.CatTalk.video.util.Utils;
-import com.kevin.CatTalk.widget.RecyclingImageView;
+import com.kevin.cattalk.BuildConfig;
+import com.kevin.cattalk.R;
+import com.kevin.cattalk.domain.VideoEntity;
+import com.kevin.cattalk.video.util.ImageCache;
+import com.kevin.cattalk.video.util.ImageResizer;
+import com.kevin.cattalk.video.util.Utils;
+import com.kevin.cattalk.widget.RecyclingImageView;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.app.ProgressDialog;
 import android.graphics.Color;
@@ -13,8 +13,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.hyphenate.chat.EMClient;
-import com.kevin.CatTalk.DemoHelper;
-import com.kevin.CatTalk.R;
+import com.kevin.cattalk.DemoHelper;
+import com.kevin.cattalk.R;
 
 
 public class OfflinePushNickActivity extends BaseActivity {

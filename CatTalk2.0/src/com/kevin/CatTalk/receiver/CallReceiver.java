@@ -12,15 +12,15 @@
  * limitations under the License.
  */
 
-package com.kevin.CatTalk.receiver;
+package com.kevin.cattalk.receiver;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import com.kevin.CatTalk.DemoHelper;
-import com.kevin.CatTalk.ui.VideoCallActivity;
-import com.kevin.CatTalk.ui.VoiceCallActivity;
+import com.kevin.cattalk.DemoHelper;
+import com.kevin.cattalk.ui.VideoCallActivity;
+import com.kevin.cattalk.ui.VoiceCallActivity;
 import com.hyphenate.util.EMLog;
 
 public class CallReceiver extends BroadcastReceiver{

@@ -1,4 +1,4 @@
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.content.Intent;
 import android.view.ContextMenu;
@@ -21,9 +21,9 @@ import com.hyphenate.easeui.model.EaseAtMessageHelper;
 import com.hyphenate.easeui.ui.EaseConversationListFragment;
 import com.hyphenate.easeui.widget.EaseConversationList.EaseConversationListHelper;
 import com.hyphenate.util.NetUtils;
-import com.kevin.CatTalk.Constant;
-import com.kevin.CatTalk.R;
-import com.kevin.CatTalk.db.InviteMessgeDao;
+import com.kevin.cattalk.Constant;
+import com.kevin.cattalk.R;
+import com.kevin.cattalk.db.InviteMessgeDao;
 
 public class ConversationListFragment extends EaseConversationListFragment{
 

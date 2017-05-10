@@ -12,7 +12,7 @@
  * limitations under the License.
  */
 
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.annotation.SuppressLint;
 import android.os.Bundle;

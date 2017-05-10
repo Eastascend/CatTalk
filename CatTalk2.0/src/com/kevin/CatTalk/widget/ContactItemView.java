@@ -1,4 +1,4 @@
-package com.kevin.CatTalk.widget;
+package com.kevin.cattalk.widget;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.kevin.CatTalk.R;
+import com.kevin.cattalk.R;
 
 
 public class ContactItemView extends LinearLayout{

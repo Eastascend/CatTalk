@@ -11,7 +11,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.annotation.SuppressLint;
 import android.content.Intent;
@@ -24,9 +24,9 @@ import android.widget.ListView;
 import com.hyphenate.easeui.adapter.EaseContactAdapter;
 import com.hyphenate.easeui.domain.EaseUser;
 import com.hyphenate.easeui.widget.EaseSidebar;
-import com.kevin.CatTalk.Constant;
-import com.kevin.CatTalk.DemoHelper;
-import com.kevin.CatTalk.R;
+import com.kevin.cattalk.Constant;
+import com.kevin.cattalk.DemoHelper;
+import com.kevin.cattalk.R;
 
 import java.util.ArrayList;
 import java.util.Collections;

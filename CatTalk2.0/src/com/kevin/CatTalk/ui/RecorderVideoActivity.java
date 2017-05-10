@@ -9,7 +9,7 @@
  * is strictly forbidden unless prior written permission is obtained
  * from EaseMob Technologies.
  */
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.annotation.SuppressLint;
 import android.app.AlertDialog;
@@ -47,8 +47,8 @@ import android.widget.VideoView;
 import com.hyphenate.easeui.utils.EaseCommonUtils;
 import com.hyphenate.util.EMLog;
 import com.hyphenate.util.PathUtil;
-import com.kevin.CatTalk.R;
-import com.kevin.CatTalk.video.util.Utils;
+import com.kevin.cattalk.R;
+import com.kevin.cattalk.video.util.Utils;
 
 import java.io.BufferedOutputStream;
 import java.io.File;

@@ -11,16 +11,16 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ListView;
 
-import com.kevin.CatTalk.R;
-import com.kevin.CatTalk.adapter.NewFriendsMsgAdapter;
-import com.kevin.CatTalk.db.InviteMessgeDao;
-import com.kevin.CatTalk.domain.InviteMessage;
+import com.kevin.cattalk.R;
+import com.kevin.cattalk.adapter.NewFriendsMsgAdapter;
+import com.kevin.cattalk.db.InviteMessgeDao;
+import com.kevin.cattalk.domain.InviteMessage;
 
 import java.util.List;
 

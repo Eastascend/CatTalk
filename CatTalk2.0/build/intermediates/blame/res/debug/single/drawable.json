@@ -8,12 +8,12 @@
         "source": "D:\\Android\\6.Android Code\\CatTalk\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_btn_blue_normal_shape.xml"
     },
     {
-        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\em_btn_logout_normal_shape.xml",
-        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\res\\drawable\\em_btn_logout_normal_shape.xml"
-    },
-    {
         "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_mm_listitem_grey.xml",
         "source": "D:\\Android\\6.Android Code\\CatTalk\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_mm_listitem_grey.xml"
+    },
+    {
+        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\em_btn_logout_normal_shape.xml",
+        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\res\\drawable\\em_btn_logout_normal_shape.xml"
     },
     {
         "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_normal_shape.xml",
@@ -28,12 +28,12 @@
         "source": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\res\\drawable\\em_chat_file_selector.xml"
     },
     {
-        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_open_selector_unsolid.xml",
-        "source": "C:\\Users\\Kevin Wong\\.android\\build-cache\\74cc77d18504891b652ec6ef026a06a5ac05fe14\\output\\res\\drawable\\rp_btn_open_selector_unsolid.xml"
-    },
-    {
         "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\em_btn_logout_normal_shape.xml",
         "source": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\res\\drawable\\em_btn_logout_normal_shape.xml"
+    },
+    {
+        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_open_selector_unsolid.xml",
+        "source": "C:\\Users\\Kevin Wong\\.android\\build-cache\\74cc77d18504891b652ec6ef026a06a5ac05fe14\\output\\res\\drawable\\rp_btn_open_selector_unsolid.xml"
     },
     {
         "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_open_normal_shape.xml",
@@ -100,12 +100,12 @@
         "source": "C:\\Users\\Kevin Wong\\.android\\build-cache\\74cc77d18504891b652ec6ef026a06a5ac05fe14\\output\\res\\drawable\\rp_btn_open_pressed_shape_unsolid.xml"
     },
     {
-        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_red_selector.xml",
-        "source": "C:\\Users\\Kevin Wong\\.android\\build-cache\\74cc77d18504891b652ec6ef026a06a5ac05fe14\\output\\res\\drawable\\rp_btn_red_selector.xml"
-    },
-    {
         "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_pressed_shape.xml",
         "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_btn_blue_pressed_shape.xml"
+    },
+    {
+        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_red_selector.xml",
+        "source": "C:\\Users\\Kevin Wong\\.android\\build-cache\\74cc77d18504891b652ec6ef026a06a5ac05fe14\\output\\res\\drawable\\rp_btn_red_selector.xml"
     },
     {
         "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\em_chat_error_item_bg.xml",
@@ -176,12 +176,12 @@
         "source": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\res\\drawable\\em_context_menu_item_bg.xml"
     },
     {
-        "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_red_enable_shape.xml",
-        "source": "C:\\Users\\Kevin Wong\\.android\\build-cache\\74cc77d18504891b652ec6ef026a06a5ac05fe14\\output\\res\\drawable\\rp_btn_red_enable_shape.xml"
-    },
-    {
         "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_retry_normal_shape.xml",
         "source": "C:\\Users\\Kevin Wong\\.android\\build-cache\\74cc77d18504891b652ec6ef026a06a5ac05fe14\\output\\res\\drawable\\rp_btn_retry_normal_shape.xml"
+    },
+    {
+        "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_btn_red_enable_shape.xml",
+        "source": "C:\\Users\\Kevin Wong\\.android\\build-cache\\74cc77d18504891b652ec6ef026a06a5ac05fe14\\output\\res\\drawable\\rp_btn_red_enable_shape.xml"
     },
     {
         "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\em_checkbox_bg_gray_selector.xml",
@@ -252,12 +252,12 @@
         "source": "C:\\Users\\Kevin Wong\\.android\\build-cache\\74cc77d18504891b652ec6ef026a06a5ac05fe14\\output\\res\\drawable\\rp_btn_red_pressed_shape.xml"
     },
     {
-        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_send_btn_selector.xml",
-        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_chat_send_btn_selector.xml"
-    },
-    {
         "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_shape_white_conner.xml",
         "source": "C:\\Users\\Kevin Wong\\.android\\build-cache\\74cc77d18504891b652ec6ef026a06a5ac05fe14\\output\\res\\drawable\\rp_shape_white_conner.xml"
+    },
+    {
+        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_send_btn_selector.xml",
+        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_chat_send_btn_selector.xml"
     },
     {
         "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_timestampe_bg.xml",
@@ -304,12 +304,12 @@
         "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_chatting_setmode_keyboard_btn.xml"
     },
     {
-        "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\em_button_selector_shape.xml",
-        "source": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\res\\drawable\\em_button_selector_shape.xml"
-    },
-    {
         "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\em_btn_gray_pressed_shape.xml",
         "source": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\res\\drawable\\em_btn_gray_pressed_shape.xml"
+    },
+    {
+        "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\em_button_selector_shape.xml",
+        "source": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\res\\drawable\\em_button_selector_shape.xml"
     },
     {
         "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_sidebar_background_pressed.xml",
@@ -352,12 +352,12 @@
         "source": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\res\\drawable\\em_btn_gray_selector.xml"
     },
     {
-        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_sidebar_background.xml",
-        "source": "C:\\Users\\Kevin Wong\\.android\\build-cache\\74cc77d18504891b652ec6ef026a06a5ac05fe14\\output\\res\\drawable\\rp_sidebar_background.xml"
-    },
-    {
         "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_send_btn_selector.xml",
         "source": "D:\\Android\\6.Android Code\\CatTalk\\easeui\\build\\intermediates\\bundles\\default\\res\\drawable\\ease_chat_send_btn_selector.xml"
+    },
+    {
+        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\rp_sidebar_background.xml",
+        "source": "C:\\Users\\Kevin Wong\\.android\\build-cache\\74cc77d18504891b652ec6ef026a06a5ac05fe14\\output\\res\\drawable\\rp_sidebar_background.xml"
     },
     {
         "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_edit_text_bg.xml",

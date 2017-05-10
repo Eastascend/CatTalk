@@ -1,4 +1,4 @@
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -26,7 +26,7 @@ import com.hyphenate.chat.EMMessage;
 import com.hyphenate.chat.EMTextMessageBody;
 import com.hyphenate.easeui.utils.EaseUserUtils;
 import com.hyphenate.util.DateUtils;
-import com.kevin.CatTalk.R;
+import com.kevin.cattalk.R;
 
 import java.util.Date;
 import java.util.List;

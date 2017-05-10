@@ -4,28 +4,28 @@
         "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\res\\layout\\em_listview_footer_view.xml"
     },
     {
-        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\layout\\rp_received_record_list_header.xml",
-        "source": "C:\\Users\\Kevin Wong\\.android\\build-cache\\74cc77d18504891b652ec6ef026a06a5ac05fe14\\output\\res\\layout\\rp_received_record_list_header.xml"
-    },
-    {
         "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_row_received_red_packet.xml",
         "source": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\redpacketlibrary\\build\\intermediates\\bundles\\default\\res\\layout\\em_row_received_red_packet.xml"
     },
     {
-        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_diagnose.xml",
-        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\res\\layout\\em_activity_diagnose.xml"
+        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\layout\\rp_received_record_list_header.xml",
+        "source": "C:\\Users\\Kevin Wong\\.android\\build-cache\\74cc77d18504891b652ec6ef026a06a5ac05fe14\\output\\res\\layout\\rp_received_record_list_header.xml"
     },
     {
         "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\layout\\ease_showvideo_activity.xml",
         "source": "D:\\Android\\6.Android Code\\CatTalk\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_showvideo_activity.xml"
     },
     {
-        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_video_call.xml",
-        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\res\\layout\\em_activity_video_call.xml"
+        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_diagnose.xml",
+        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\res\\layout\\em_activity_diagnose.xml"
     },
     {
         "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_row_robots.xml",
         "source": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\res\\layout\\em_row_robots.xml"
+    },
+    {
+        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_video_call.xml",
+        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\res\\layout\\em_activity_video_call.xml"
     },
     {
         "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_update_dialog.xml",
@@ -116,32 +116,32 @@
         "source": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\res\\layout\\em_activity_call_option.xml"
     },
     {
-        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pick_at_user.xml",
-        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\res\\layout\\activity_pick_at_user.xml"
-    },
-    {
         "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\layout\\ease_conversation_item.xml",
         "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_conversation_item.xml"
+    },
+    {
+        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pick_at_user.xml",
+        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\res\\layout\\activity_pick_at_user.xml"
     },
     {
         "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_context_menu_for_location.xml",
         "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\res\\layout\\em_context_menu_for_location.xml"
     },
     {
-        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_context_menu_for_voice.xml",
-        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\res\\layout\\em_context_menu_for_voice.xml"
-    },
-    {
         "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\layout\\ease_commom_back_btn.xml",
         "source": "D:\\Android\\6.Android Code\\CatTalk\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_commom_back_btn.xml"
     },
     {
-        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_contact.xml",
-        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_contact.xml"
+        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_context_menu_for_voice.xml",
+        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\res\\layout\\em_context_menu_for_voice.xml"
     },
     {
         "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\layout\\em_activity_public_groups.xml",
         "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\res\\layout\\em_activity_public_groups.xml"
+    },
+    {
+        "merged": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_contact.xml",
+        "source": "D:\\Android\\6.Android Code\\Ease SDK+Demo\\examples\\easeui\\build\\intermediates\\bundles\\default\\res\\layout\\ease_row_contact.xml"
     },
     {
         "merged": "D:\\Android\\6.Android Code\\CatTalk\\CatTalk2.0\\build\\intermediates\\res\\merged\\debug\\layout\\rp_fragment_single_chat_packet.xml",

@@ -1,4 +1,4 @@
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -14,7 +14,7 @@ import com.hyphenate.EMError;
 import com.hyphenate.chat.EMClient;
 import com.hyphenate.chat.EMGroup;
 import com.hyphenate.exceptions.HyphenateException;
-import com.kevin.CatTalk.R;
+import com.kevin.cattalk.R;
 
 public class PublicGroupsSeachActivity extends BaseActivity{
     private RelativeLayout containerLayout;

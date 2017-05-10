@@ -1,4 +1,4 @@
-package com.kevin.CatTalk.ui;
+package com.kevin.cattalk.ui;
 
 import android.app.Activity;
 import android.content.ClipData;
@@ -39,12 +39,12 @@ import com.hyphenate.easeui.widget.chatrow.EaseCustomChatRowProvider;
 import com.hyphenate.easeui.widget.emojicon.EaseEmojiconMenu;
 import com.hyphenate.util.EasyUtils;
 import com.hyphenate.util.PathUtil;
-import com.kevin.CatTalk.Constant;
-import com.kevin.CatTalk.DemoHelper;
-import com.kevin.CatTalk.R;
-import com.kevin.CatTalk.domain.EmojiconExampleGroupData;
-import com.kevin.CatTalk.domain.RobotUser;
-import com.kevin.CatTalk.widget.ChatRowVoiceCall;
+import com.kevin.cattalk.Constant;
+import com.kevin.cattalk.DemoHelper;
+import com.kevin.cattalk.R;
+import com.kevin.cattalk.domain.EmojiconExampleGroupData;
+import com.kevin.cattalk.domain.RobotUser;
+import com.kevin.cattalk.widget.ChatRowVoiceCall;
 
 import java.io.File;
 import java.io.FileOutputStream;

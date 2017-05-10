@@ -1,4 +1,4 @@
-package com.kevin.CatTalk;
+package com.kevin.cattalk;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -41,19 +41,19 @@ import com.hyphenate.easeui.model.EaseNotifier.EaseNotificationInfoProvider;
 import com.hyphenate.easeui.utils.EaseCommonUtils;
 import com.hyphenate.exceptions.HyphenateException;
 import com.hyphenate.util.EMLog;
-import com.kevin.CatTalk.db.DemoDBManager;
-import com.kevin.CatTalk.db.InviteMessgeDao;
-import com.kevin.CatTalk.db.UserDao;
-import com.kevin.CatTalk.domain.EmojiconExampleGroupData;
-import com.kevin.CatTalk.domain.InviteMessage;
-import com.kevin.CatTalk.domain.RobotUser;
-import com.kevin.CatTalk.parse.UserProfileManager;
-import com.kevin.CatTalk.receiver.CallReceiver;
-import com.kevin.CatTalk.ui.ChatActivity;
-import com.kevin.CatTalk.ui.MainActivity;
-import com.kevin.CatTalk.ui.VideoCallActivity;
-import com.kevin.CatTalk.ui.VoiceCallActivity;
-import com.kevin.CatTalk.utils.PreferenceManager;
+import com.kevin.cattalk.db.DemoDBManager;
+import com.kevin.cattalk.db.InviteMessgeDao;
+import com.kevin.cattalk.db.UserDao;
+import com.kevin.cattalk.domain.EmojiconExampleGroupData;
+import com.kevin.cattalk.domain.InviteMessage;
+import com.kevin.cattalk.domain.RobotUser;
+import com.kevin.cattalk.parse.UserProfileManager;
+import com.kevin.cattalk.receiver.CallReceiver;
+import com.kevin.cattalk.ui.ChatActivity;
+import com.kevin.cattalk.ui.MainActivity;
+import com.kevin.cattalk.ui.VideoCallActivity;
+import com.kevin.cattalk.ui.VoiceCallActivity;
+import com.kevin.cattalk.utils.PreferenceManager;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,4 +1,4 @@
-package com.kevin.CatTalk.domain;
+package com.kevin.cattalk.domain;
 
 public class VideoEntity {
 	public int ID;
